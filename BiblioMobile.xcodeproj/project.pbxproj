@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186E9E38172E1A42917A8DCB /* Pods_BiblioMobile_BiblioMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A0215E08DF4759EB773080 /* Pods_BiblioMobile_BiblioMobileUITests.framework */; };
+		7E4A30F3FB5D4DCFE75854FC /* Pods_BiblioMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB3F81312B97F04719E80E /* Pods_BiblioMobile.framework */; };
+		E8D367117F9B77B4E2FAE4AF /* Pods_BiblioMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7B34FFB67DAC0F394F421A /* Pods_BiblioMobileTests.framework */; };
+		FB89552327D7C8DD00D324D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89552227D7C8DD00D324D5 /* AppDelegate.swift */; };
+		FB89552527D7C8DD00D324D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89552427D7C8DD00D324D5 /* SceneDelegate.swift */; };
+		FB89552A27D7C8DD00D324D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB89552827D7C8DD00D324D5 /* Main.storyboard */; };
+		FB89552C27D7C8DF00D324D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB89552B27D7C8DF00D324D5 /* Assets.xcassets */; };
+		FB89552F27D7C8DF00D324D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB89552D27D7C8DF00D324D5 /* LaunchScreen.storyboard */; };
+		FB89553A27D7C8DF00D324D5 /* BiblioMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89553927D7C8DF00D324D5 /* BiblioMobileTests.swift */; };
+		FB89554427D7C8DF00D324D5 /* BiblioMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89554327D7C8DF00D324D5 /* BiblioMobileUITests.swift */; };
+		FB89554627D7C8DF00D324D5 /* BiblioMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89554527D7C8DF00D324D5 /* BiblioMobileUITestsLaunchTests.swift */; };
+		FB89555427D7C96B00D324D5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89555327D7C96B00D324D5 /* Book.swift */; };
+		FB89555727D7C9DF00D324D5 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89555627D7C9DF00D324D5 /* LibraryViewController.swift */; };
+		FB89555A27D7CAC800D324D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89555927D7CAC800D324D5 /* Constants.swift */; };
+		FB89555D27D7D0FB00D324D5 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89555C27D7D0FB00D324D5 /* BookTableViewCell.swift */; };
+		FB89556027D7D24A00D324D5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89555F27D7D24A00D324D5 /* Reachability.swift */; };
+		FB89556227D7D35200D324D5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB89556127D7D35200D324D5 /* Service.swift */; };
+		FBC09BCC27D80F8C007AE2C1 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC09BCB27D80F8B007AE2C1 /* BookDetailsViewController.swift */; };
+		FBC09BCF27D815BA007AE2C1 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC09BCE27D815BA007AE2C1 /* Offer.swift */; };
+		FBC09BD127D934D7007AE2C1 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC09BD027D934D7007AE2C1 /* BasketViewController.swift */; };
+		FBC09BD327D93551007AE2C1 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC09BD227D93551007AE2C1 /* BookViewModel.swift */; };
+		FBC09BD527D93564007AE2C1 /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC09BD427D93564007AE2C1 /* OfferViewModel.swift */; };
+		FBC09BD727D93635007AE2C1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC09BD627D93635007AE2C1 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB89553627D7C8DF00D324D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB89551727D7C8DD00D324D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB89551E27D7C8DD00D324D5;
+			remoteInfo = BiblioMobile;
+		};
+		FB89554027D7C8DF00D324D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB89551727D7C8DD00D324D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB89551E27D7C8DD00D324D5;
+			remoteInfo = BiblioMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1826ED96AE827B6764507ECD /* Pods-BiblioMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiblioMobileTests.release.xcconfig"; path = "Target Support Files/Pods-BiblioMobileTests/Pods-BiblioMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B7B34FFB67DAC0F394F421A /* Pods_BiblioMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiblioMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550482DF3BD8955EA7405C39 /* Pods-BiblioMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiblioMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-BiblioMobileTests/Pods-BiblioMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD5DF4923EFE95669472A9F /* Pods-BiblioMobile-BiblioMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiblioMobile-BiblioMobileUITests.release.xcconfig"; path = "Target Support Files/Pods-BiblioMobile-BiblioMobileUITests/Pods-BiblioMobile-BiblioMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CE449CFF964FA69E1611AEF /* Pods-BiblioMobile-BiblioMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiblioMobile-BiblioMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-BiblioMobile-BiblioMobileUITests/Pods-BiblioMobile-BiblioMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		677D99A4BAAE15869684D8BE /* Pods-BiblioMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiblioMobile.release.xcconfig"; path = "Target Support Files/Pods-BiblioMobile/Pods-BiblioMobile.release.xcconfig"; sourceTree = "<group>"; };
+		72A0215E08DF4759EB773080 /* Pods_BiblioMobile_BiblioMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiblioMobile_BiblioMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B89B90842B78839E2AF81B /* Pods-BiblioMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiblioMobile.debug.xcconfig"; path = "Target Support Files/Pods-BiblioMobile/Pods-BiblioMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		CCEB3F81312B97F04719E80E /* Pods_BiblioMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiblioMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB89551F27D7C8DD00D324D5 /* BiblioMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiblioMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB89552227D7C8DD00D324D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB89552427D7C8DD00D324D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB89552927D7C8DD00D324D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB89552B27D7C8DF00D324D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB89552E27D7C8DF00D324D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB89553027D7C8DF00D324D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB89553527D7C8DF00D324D5 /* BiblioMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiblioMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB89553927D7C8DF00D324D5 /* BiblioMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiblioMobileTests.swift; sourceTree = "<group>"; };
+		FB89553F27D7C8DF00D324D5 /* BiblioMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiblioMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB89554327D7C8DF00D324D5 /* BiblioMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiblioMobileUITests.swift; sourceTree = "<group>"; };
+		FB89554527D7C8DF00D324D5 /* BiblioMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiblioMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB89555327D7C96B00D324D5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		FB89555627D7C9DF00D324D5 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		FB89555927D7CAC800D324D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB89555C27D7D0FB00D324D5 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		FB89555F27D7D24A00D324D5 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FB89556127D7D35200D324D5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		FBC09BCB27D80F8B007AE2C1 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		FBC09BCE27D815BA007AE2C1 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		FBC09BD027D934D7007AE2C1 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		FBC09BD227D93551007AE2C1 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		FBC09BD427D93564007AE2C1 /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
+		FBC09BD627D93635007AE2C1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB89551C27D7C8DD00D324D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4A30F3FB5D4DCFE75854FC /* Pods_BiblioMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89553227D7C8DF00D324D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D367117F9B77B4E2FAE4AF /* Pods_BiblioMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89553C27D7C8DF00D324D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186E9E38172E1A42917A8DCB /* Pods_BiblioMobile_BiblioMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD71B900847DB86E3230D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB3F81312B97F04719E80E /* Pods_BiblioMobile.framework */,
+				72A0215E08DF4759EB773080 /* Pods_BiblioMobile_BiblioMobileUITests.framework */,
+				3B7B34FFB67DAC0F394F421A /* Pods_BiblioMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED5229EA0AE5538F85CF317 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5B89B90842B78839E2AF81B /* Pods-BiblioMobile.debug.xcconfig */,
+				677D99A4BAAE15869684D8BE /* Pods-BiblioMobile.release.xcconfig */,
+				5CE449CFF964FA69E1611AEF /* Pods-BiblioMobile-BiblioMobileUITests.debug.xcconfig */,
+				5BD5DF4923EFE95669472A9F /* Pods-BiblioMobile-BiblioMobileUITests.release.xcconfig */,
+				550482DF3BD8955EA7405C39 /* Pods-BiblioMobileTests.debug.xcconfig */,
+				1826ED96AE827B6764507ECD /* Pods-BiblioMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB89551627D7C8DD00D324D5 = {
+			isa = PBXGroup;
+			children = (
+				FB89552127D7C8DD00D324D5 /* BiblioMobile */,
+				FB89553827D7C8DF00D324D5 /* BiblioMobileTests */,
+				FB89554227D7C8DF00D324D5 /* BiblioMobileUITests */,
+				FB89552027D7C8DD00D324D5 /* Products */,
+				EED5229EA0AE5538F85CF317 /* Pods */,
+				3BD71B900847DB86E3230D72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB89552027D7C8DD00D324D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB89551F27D7C8DD00D324D5 /* BiblioMobile.app */,
+				FB89553527D7C8DF00D324D5 /* BiblioMobileTests.xctest */,
+				FB89553F27D7C8DF00D324D5 /* BiblioMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB89552127D7C8DD00D324D5 /* BiblioMobile */ = {
+			isa = PBXGroup;
+			children = (
+				FB89552227D7C8DD00D324D5 /* AppDelegate.swift */,
+				FB89552427D7C8DD00D324D5 /* SceneDelegate.swift */,
+				FB89555E27D7D22300D324D5 /* Service */,
+				FB89555227D7C92E00D324D5 /* Model */,
+				FBC09BCD27D8126B007AE2C1 /* ViewModel */,
+				FB89555527D7C9AE00D324D5 /* Controller */,
+				FB89552827D7C8DD00D324D5 /* Main.storyboard */,
+				FB89552B27D7C8DF00D324D5 /* Assets.xcassets */,
+				FB89552D27D7C8DF00D324D5 /* LaunchScreen.storyboard */,
+				FB89553027D7C8DF00D324D5 /* Info.plist */,
+			);
+			path = BiblioMobile;
+			sourceTree = "<group>";
+		};
+		FB89553827D7C8DF00D324D5 /* BiblioMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB89553927D7C8DF00D324D5 /* BiblioMobileTests.swift */,
+			);
+			path = BiblioMobileTests;
+			sourceTree = "<group>";
+		};
+		FB89554227D7C8DF00D324D5 /* BiblioMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB89554327D7C8DF00D324D5 /* BiblioMobileUITests.swift */,
+				FB89554527D7C8DF00D324D5 /* BiblioMobileUITestsLaunchTests.swift */,
+			);
+			path = BiblioMobileUITests;
+			sourceTree = "<group>";
+		};
+		FB89555227D7C92E00D324D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB89555327D7C96B00D324D5 /* Book.swift */,
+				FBC09BCE27D815BA007AE2C1 /* Offer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB89555527D7C9AE00D324D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB89555627D7C9DF00D324D5 /* LibraryViewController.swift */,
+				FBC09BCB27D80F8B007AE2C1 /* BookDetailsViewController.swift */,
+				FBC09BD027D934D7007AE2C1 /* BasketViewController.swift */,
+				FB89555B27D7D0E300D324D5 /* Cell */,
+				FB89555827D7CAB500D324D5 /* Utilities */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB89555827D7CAB500D324D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB89555927D7CAC800D324D5 /* Constants.swift */,
+				FBC09BD627D93635007AE2C1 /* Helper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FB89555B27D7D0E300D324D5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FB89555C27D7D0FB00D324D5 /* BookTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FB89555E27D7D22300D324D5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FB89555F27D7D24A00D324D5 /* Reachability.swift */,
+				FB89556127D7D35200D324D5 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FBC09BCD27D8126B007AE2C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FBC09BD227D93551007AE2C1 /* BookViewModel.swift */,
+				FBC09BD427D93564007AE2C1 /* OfferViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB89551E27D7C8DD00D324D5 /* BiblioMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB89554927D7C8DF00D324D5 /* Build configuration list for PBXNativeTarget "BiblioMobile" */;
+			buildPhases = (
+				1EF19A3B39E1230267AF9CDA /* [CP] Check Pods Manifest.lock */,
+				FB89551B27D7C8DD00D324D5 /* Sources */,
+				FB89551C27D7C8DD00D324D5 /* Frameworks */,
+				FB89551D27D7C8DD00D324D5 /* Resources */,
+				938C5E47BE72204C0F91EAB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiblioMobile;
+			productName = BiblioMobile;
+			productReference = FB89551F27D7C8DD00D324D5 /* BiblioMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB89553427D7C8DF00D324D5 /* BiblioMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB89554C27D7C8DF00D324D5 /* Build configuration list for PBXNativeTarget "BiblioMobileTests" */;
+			buildPhases = (
+				2815A8044D7F3F48FC9FF34B /* [CP] Check Pods Manifest.lock */,
+				FB89553127D7C8DF00D324D5 /* Sources */,
+				FB89553227D7C8DF00D324D5 /* Frameworks */,
+				FB89553327D7C8DF00D324D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB89553727D7C8DF00D324D5 /* PBXTargetDependency */,
+			);
+			name = BiblioMobileTests;
+			productName = BiblioMobileTests;
+			productReference = FB89553527D7C8DF00D324D5 /* BiblioMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB89553E27D7C8DF00D324D5 /* BiblioMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB89554F27D7C8DF00D324D5 /* Build configuration list for PBXNativeTarget "BiblioMobileUITests" */;
+			buildPhases = (
+				195001C5BC13BD0BFC7A9DD4 /* [CP] Check Pods Manifest.lock */,
+				FB89553B27D7C8DF00D324D5 /* Sources */,
+				FB89553C27D7C8DF00D324D5 /* Frameworks */,
+				FB89553D27D7C8DF00D324D5 /* Resources */,
+				F7ED15EDF8FEB58DC5D65204 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB89554127D7C8DF00D324D5 /* PBXTargetDependency */,
+			);
+			name = BiblioMobileUITests;
+			productName = BiblioMobileUITests;
+			productReference = FB89553F27D7C8DF00D324D5 /* BiblioMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB89551727D7C8DD00D324D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FB89551E27D7C8DD00D324D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FB89553427D7C8DF00D324D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FB89551E27D7C8DD00D324D5;
+					};
+					FB89553E27D7C8DF00D324D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FB89551E27D7C8DD00D324D5;
+					};
+				};
+			};
+			buildConfigurationList = FB89551A27D7C8DD00D324D5 /* Build configuration list for PBXProject "BiblioMobile" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB89551627D7C8DD00D324D5;
+			productRefGroup = FB89552027D7C8DD00D324D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB89551E27D7C8DD00D324D5 /* BiblioMobile */,
+				FB89553427D7C8DF00D324D5 /* BiblioMobileTests */,
+				FB89553E27D7C8DF00D324D5 /* BiblioMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB89551D27D7C8DD00D324D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB89552F27D7C8DF00D324D5 /* LaunchScreen.storyboard in Resources */,
+				FB89552C27D7C8DF00D324D5 /* Assets.xcassets in Resources */,
+				FB89552A27D7C8DD00D324D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89553327D7C8DF00D324D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89553D27D7C8DF00D324D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195001C5BC13BD0BFC7A9DD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiblioMobile-BiblioMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF19A3B39E1230267AF9CDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiblioMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2815A8044D7F3F48FC9FF34B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiblioMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938C5E47BE72204C0F91EAB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiblioMobile/Pods-BiblioMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiblioMobile/Pods-BiblioMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiblioMobile/Pods-BiblioMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7ED15EDF8FEB58DC5D65204 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiblioMobile-BiblioMobileUITests/Pods-BiblioMobile-BiblioMobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiblioMobile-BiblioMobileUITests/Pods-BiblioMobile-BiblioMobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiblioMobile-BiblioMobileUITests/Pods-BiblioMobile-BiblioMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB89551B27D7C8DD00D324D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB89555427D7C96B00D324D5 /* Book.swift in Sources */,
+				FBC09BD727D93635007AE2C1 /* Helper.swift in Sources */,
+				FB89555727D7C9DF00D324D5 /* LibraryViewController.swift in Sources */,
+				FBC09BCC27D80F8C007AE2C1 /* BookDetailsViewController.swift in Sources */,
+				FB89555D27D7D0FB00D324D5 /* BookTableViewCell.swift in Sources */,
+				FB89552327D7C8DD00D324D5 /* AppDelegate.swift in Sources */,
+				FBC09BD327D93551007AE2C1 /* BookViewModel.swift in Sources */,
+				FB89556227D7D35200D324D5 /* Service.swift in Sources */,
+				FBC09BD527D93564007AE2C1 /* OfferViewModel.swift in Sources */,
+				FBC09BCF27D815BA007AE2C1 /* Offer.swift in Sources */,
+				FBC09BD127D934D7007AE2C1 /* BasketViewController.swift in Sources */,
+				FB89552527D7C8DD00D324D5 /* SceneDelegate.swift in Sources */,
+				FB89556027D7D24A00D324D5 /* Reachability.swift in Sources */,
+				FB89555A27D7CAC800D324D5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89553127D7C8DF00D324D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB89553A27D7C8DF00D324D5 /* BiblioMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89553B27D7C8DF00D324D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB89554427D7C8DF00D324D5 /* BiblioMobileUITests.swift in Sources */,
+				FB89554627D7C8DF00D324D5 /* BiblioMobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB89553727D7C8DF00D324D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB89551E27D7C8DD00D324D5 /* BiblioMobile */;
+			targetProxy = FB89553627D7C8DF00D324D5 /* PBXContainerItemProxy */;
+		};
+		FB89554127D7C8DF00D324D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB89551E27D7C8DD00D324D5 /* BiblioMobile */;
+			targetProxy = FB89554027D7C8DF00D324D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB89552827D7C8DD00D324D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB89552927D7C8DD00D324D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB89552D27D7C8DF00D324D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB89552E27D7C8DF00D324D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB89554727D7C8DF00D324D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB89554827D7C8DF00D324D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB89554A27D7C8DF00D324D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B89B90842B78839E2AF81B /* Pods-BiblioMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiblioMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.biblioMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB89554B27D7C8DF00D324D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677D99A4BAAE15869684D8BE /* Pods-BiblioMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiblioMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.biblioMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB89554D27D7C8DF00D324D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550482DF3BD8955EA7405C39 /* Pods-BiblioMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VN3BHPC92F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.biblioMobile.BiblioMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiblioMobile.app/BiblioMobile";
+			};
+			name = Debug;
+		};
+		FB89554E27D7C8DF00D324D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1826ED96AE827B6764507ECD /* Pods-BiblioMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VN3BHPC92F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.biblioMobile.BiblioMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiblioMobile.app/BiblioMobile";
+			};
+			name = Release;
+		};
+		FB89555027D7C8DF00D324D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE449CFF964FA69E1611AEF /* Pods-BiblioMobile-BiblioMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VN3BHPC92F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.biblioMobile.BiblioMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiblioMobile;
+			};
+			name = Debug;
+		};
+		FB89555127D7C8DF00D324D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD5DF4923EFE95669472A9F /* Pods-BiblioMobile-BiblioMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VN3BHPC92F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.biblioMobile.BiblioMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiblioMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB89551A27D7C8DD00D324D5 /* Build configuration list for PBXProject "BiblioMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB89554727D7C8DF00D324D5 /* Debug */,
+				FB89554827D7C8DF00D324D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB89554927D7C8DF00D324D5 /* Build configuration list for PBXNativeTarget "BiblioMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB89554A27D7C8DF00D324D5 /* Debug */,
+				FB89554B27D7C8DF00D324D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB89554C27D7C8DF00D324D5 /* Build configuration list for PBXNativeTarget "BiblioMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB89554D27D7C8DF00D324D5 /* Debug */,
+				FB89554E27D7C8DF00D324D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB89554F27D7C8DF00D324D5 /* Build configuration list for PBXNativeTarget "BiblioMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB89555027D7C8DF00D324D5 /* Debug */,
+				FB89555127D7C8DF00D324D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB89551727D7C8DD00D324D5 /* Project object */;
+}
